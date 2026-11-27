@@ -2,7 +2,8 @@
 
 ## Requisitos
 
-- Python **3.12** (testado com 3.12.3; 3.10 e 3.11 devem funcionar)
+- Python **3.12** (testado com 3.12.3 e 3.12.16). Versões anteriores não funcionam:
+  as versões fixadas de `numpy` e `torch` não têm pacotes para Python 3.10 ou 3.11
 - Treino em CPU; GPU não é necessária
 
 Dependências (`requirements.txt`):
